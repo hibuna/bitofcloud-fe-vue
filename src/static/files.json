@@ -1,0 +1,143 @@
+[
+  {
+    "name": "directory 1",
+    "size": null,
+    "id": "30ff674a-b443-4010-83f2-71da6db8291e",
+    "files": [
+      {
+        "name": "file1.txt",
+        "size": "592 MB",
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "files": null
+      },
+      {
+        "name": "file2.jpg",
+        "size": "402 KB",
+        "id": "9e107d9d-3721-4b65-a9b1-4cf2db1d1a5e",
+        "files": null
+      },
+      {
+        "name": "file3.png",
+        "size": "16 KB",
+        "id": "3d3c68c3-36cf-403e-a0c6-0ec64e4d7e1e",
+        "files": null
+      },
+      {
+        "name": "file4.doc",
+        "size": "109,3 MB",
+        "id": "2b10c9a1-55f6-4888-b4a3-8ed3d9d3c2e4",
+        "files": null
+      },
+      {
+        "name": "file5.docx",
+        "size": "82,7 B",
+        "id": "4a0f5c3c-55b9-4b2d-9e19-57f1a2a8d1f0",
+        "files": null
+      },
+      {
+        "name": "file6.txt",
+        "size": "10,5 KB",
+        "id": "e79c4e8a-05b8-48c9-9e67-17c5b7b4e9d5",
+        "files": null
+      },
+      {
+        "name": "file7.jpg",
+        "size": "102,8 MB",
+        "id": "8a5f5a8e-b2a7-4c16-9a4a-6e5f7e6d8a9e",
+        "files": null
+      },
+      {
+        "name": "file8.png",
+        "size": "199 b",
+        "id": "1b58f6b3-5d57-4d8b-9d1a-7f6a9e5d4b3c",
+        "files": null
+      },
+      {
+        "name": "file9.doc",
+        "size": "862 B",
+        "id": "9f0c2a9c-6c9a-4f3e-9a7b-2d1b3c4d5e6f",
+        "files": null
+      },
+      {
+        "name": "file10.docx",
+        "size": "112,1 MB",
+        "id": "b2a6e8f5-7d6a-42b1-9e6f-1c3d4b5e7f8a",
+        "files": null
+      }
+    ]
+  },
+  {
+    "name": "directory 2",
+    "size": null,
+    "id": "85db84ad-5a5d-44e7-ae46-2b05ee735fa1",
+    "files": [
+      {
+        "name": "file11.txt",
+        "size": "1,5 GB",
+        "id": "7d8a6e5f-4c3b-40b2-9e1a-3c4d5e7f9a0b",
+        "files": null
+      },
+      {
+        "name": "file12.jpg",
+        "size": "88,3 MB",
+        "id": "5f6b8a7c-3c9e-4b2d-9e1a-6d4e7f8a9b0c",
+        "files": null
+      },
+      {
+        "name": "file13.png",
+        "size": "35 KB",
+        "id": "9e1a7f8a-6b5d-4c3e-9a0b-2d4e6f7b8c9d",
+        "files": null
+      },
+      {
+        "name": "directory 3",
+        "size": null,
+        "id": "4664bcdf-694e-49c7-9769-df815452e4a4",
+        "files": [
+          {
+            "name": "file14.doc",
+            "size": "345 KB",
+            "id": "3e4d5c6a-2b1a-4f9e-8a7b-5d6f7e9c0a1b",
+            "files": null
+          },
+          {
+            "name": "file15.docx",
+            "size": "14 KB",
+            "id": "8a9b0d1a-6e7f-4c3e-9b2d-1f4a5e7c8d6f",
+            "files": null
+          }
+        ]
+      },
+      {
+        "name": "file16.txt",
+        "size": "10,1 MB",
+        "id": "5d6e7f9a-3c4b-4e1a-9f2d-7b8a9c0d1a2b",
+        "files": null
+      },
+      {
+        "name": "file17.jpg",
+        "size": "601 MB",
+        "id": "4a5b6c7d-3e9f-4b2a-8e1d-6f7a9c0b1d2e",
+        "files": null
+      },
+      {
+        "name": "file18.png",
+        "size": "1 GB",
+        "id": "1e2a3c4d-5b6f-4a9e-8d7c-6b9a0d1e2f3a",
+        "files": null
+      }
+    ]
+  },
+  {
+    "name": "file19.doc",
+    "size": "2,3 MB",
+    "id": "7f8a9b0c-3d6e-4b2a-9e1d-4f5a6e7c8b9d",
+    "files": null
+  },
+  {
+    "name": "file20.docx",
+    "size": "1012 KB",
+    "id": "3c4e5a6b-7d8f-4b1a-9e2d-5f6a7c8b9d0e",
+    "files": null
+  }
+]
