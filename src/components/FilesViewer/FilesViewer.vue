@@ -34,7 +34,7 @@ const headers = [
     align: 'end',
     key: 'size'
   }
-]
+] as const
 </script>
 
 <template>
