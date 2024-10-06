@@ -1,0 +1,61 @@
+stages:
+  - build
+  - deploy
+
+build-test-job:
+  stage: build
+  only:
+    - dev
+  script:
+    - cp -r /home/angelo/bitofcloud/deployment/files/boc-fe-test/. .
+    - scripts/build
+  environment:
+    name: test
+  variables:
+    GIT_CLONE_PATH: '$CI_BUILDS_DIR/boc-fe-test/'
+  tags:
+    - self-hosted
+
+deploy-test-job:
+  stage: deploy
+  only:
+    - dev
+  script:
+    - cp -r /home/angelo/bitofcloud/deployment/files/boc-fe-test/. .
+    - scripts/deploy
+    - scripts/clean
+  environment:
+    name: test
+  variables:
+    GIT_CLONE_PATH: '$CI_BUILDS_DIR/boc-fe-test/'
+  tags:
+    - self-hosted
+
+build-prod-job:
+  stage: build
+  only:
+    - master
+  script:
+    - cp -r /home/angelo/bitofcloud/deployment/files/boc-fe-prod/. .
+    - scripts/build
+  environment:
+    name: prod
+  variables:
+    GIT_CLONE_PATH: '$CI_BUILDS_DIR/boc-fe-prod/'
+  tags:
+    - self-hosted
+
+deploy-prod-job:
+  stage: deploy
+  only:
+    - master
+  script:
+    - cp -r /home/angelo/bitofcloud/deployment/files/boc-fe-prod/. .
+    - scripts/deploy
+    - scripts/clean
+  environment:
+    name: prod
+  variables:
+    GIT_CLONE_PATH: '$CI_BUILDS_DIR/boc-fe-prod/'
+  tags:
+    - self-hosted
