@@ -1,0 +1,18 @@
+services:
+  fe:
+    container_name: boc-fe
+    image: node:21.7.1-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile # this file lives in the frontend repo
+    ports:
+      - 13201:5173
+    working_dir: /app
+    command: ['pnpm', 'dev', '--host', '0.0.0.0']
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+    volumes:
+      - ./src:/app/src # link local folder to container project root for auto reload
+      - ./public:/app/public # link local folder to container project root for auto reload
+    restart: always
